@@ -1,26 +1,21 @@
 Step 1: Create a Simple Java Application
 
 Let’s assume a simple Calculator application with basic functionality:
-Calculator.java
 
-public class Calculator {
-    public int add(int a, int b) {
-        return a + b;
-    }
 
-    public int subtract(int a, int b) {
-        return a - b;
-    }
+public class Main {
+    public static void main(String[] args) {
+        Calculator calculator = new Calculator();
 
-    public int multiply(int a, int b) {
-        return a * b;
-    }
+        int sum = calculator.add(5, 3);
+        int difference = calculator.subtract(10, 4);
+        int product = calculator.multiply(2, 6);
+        double quotient = calculator.divide(15, 3);
 
-    public double divide(int a, int b) {
-        if (b == 0) {
-            throw new ArithmeticException("Division by zero is not allowed.");
-        }
-        return (double) a / b;
+        System.out.println("Sum: " + sum);
+        System.out.println("Difference: " + difference);
+        System.out.println("Product: " + product);
+        System.out.println("Quotient: " + quotient);
     }
 }
 
@@ -30,7 +25,6 @@ public class Calculator {
 
 Step 2: Create Unit Tests Using JUnit
 JUnit 5 (also known as Jupiter) is commonly used for testing. Let’s write unit tests for the Calculator class.
-CalculatorTest.java
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
