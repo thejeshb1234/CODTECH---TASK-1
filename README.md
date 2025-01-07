@@ -4,7 +4,7 @@
  COMPANY- CODTECH IT SOLUTIONS
  INTERNSHIP ID- CT6WDS2438
  DOMAIN- SOFTWARE TESTING
- DURATION - 30TH NOV 2024 TO 15TH JAN 20215
+ DURATION - 30TH NOV 2024 TO 15TH JAN 2025
 
  Overview of the Project : 
 Implement unit tests for a simple Java application using JUnit. This project
