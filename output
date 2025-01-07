@@ -1,0 +1,15 @@
+OUTPUT FOE STEP -  1 
+
+Sum: 8
+Difference: 6
+Product: 12
+Quotient: 5.0
+
+
+
+OUTPUT FOE STEP - 2  
+ testAdd() passed
+ testSubtract() passed
+ testMultiply() passed
+ testDivide() passed
+ testDivideByZero() passed
